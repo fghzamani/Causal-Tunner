@@ -1,0 +1,45 @@
+repositories:
+  tiago_simulation:
+    type: git
+    url: https://github.com/pal-robotics/tiago_simulation.git
+    version: cc55a66
+  pal_navigation_cfg_public:
+    type: git
+    url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
+    version: 50b2b2f
+  tiago_moveit_config:
+    type: git
+    url: https://github.com/pal-robotics/tiago_moveit_config.git
+    version: fbe830e
+  pmb2_navigation:
+    type: git
+    url: https://github.com/pal-robotics/pmb2_navigation.git
+    version: ccfae23
+  tiago_robot:
+    type: git
+    url: https://github.com/pal-robotics/tiago_robot.git
+    version: 43a3c9a
+  pmb2_robot:
+    type: git
+    url: https://github.com/pal-robotics/pmb2_robot.git
+    version: 3f60b9d
+  hey5_description:
+    type: git
+    url: https://github.com/pal-robotics/hey5_description.git
+    version: 345a28a
+  pal_gripper:
+    type: git
+    url: https://github.com/pal-robotics/pal_gripper.git
+    version: b633656
+  navigation2:
+    type: git
+    url: git@github.com:fghzamani/navigation2.git
+    version: fafff69
+  play_motion2:
+    type: git
+    url: https://github.com/pal-robotics/play_motion2.git
+    version: b4088dd
+  launch_pal:
+    type: git
+    url: https://github.com/pal-robotics/launch_pal.git
+    version: c02993a

@@ -1,0 +1,354 @@
+[INFO] [launch]: All log files can be found below /home/forough/.ros/log/2025-06-27-14-55-03-841620-forough-Precision-5770-190945
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [play_motion2_node-11]: process started with pid [191010]
+[INFO] [gzserver-1]: process started with pid [190982]
+[INFO] [spawn_entity.py-2]: process started with pid [190984]
+[INFO] [spawner-3]: process started with pid [190986]
+[INFO] [spawner-4]: process started with pid [190988]
+[INFO] [spawner-5]: process started with pid [190991]
+[INFO] [spawner-6]: process started with pid [190994]
+[INFO] [spawner-7]: process started with pid [190997]
+[INFO] [spawner-8]: process started with pid [191000]
+[INFO] [spawner-9]: process started with pid [191003]
+[INFO] [spawner-10]: process started with pid [191007]
+[INFO] [twist_mux-12]: process started with pid [191012]
+[INFO] [twist_marker-13]: process started with pid [191014]
+[INFO] [joystick_relay.py-14]: process started with pid [191016]
+[INFO] [robot_state_publisher-15]: process started with pid [191018]
+[INFO] [static_transform_publisher-16]: process started with pid [191020]
+[static_transform_publisher-16] [WARN] [1751028906.668175125] []: Old-style arguments are deprecated; see --help for new-style arguments
+[twist_mux-12] [INFO] [1751028906.696816317] [twist_mux]: Topic handler 'topics.joystick' subscribed to topic 'joy_vel': timeout = 0.500000s , priority = 100.
+[twist_mux-12] [INFO] [1751028906.699910547] [twist_mux]: Topic handler 'topics.keyboard' subscribed to topic 'key_vel': timeout = 0.500000s , priority = 90.
+[twist_mux-12] [INFO] [1751028906.700707835] [twist_mux]: Topic handler 'topics.marker' subscribed to topic 'marker_vel': timeout = 0.500000s , priority = 99.
+[twist_mux-12] [INFO] [1751028906.701240079] [twist_mux]: Topic handler 'topics.navigation' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 10.
+[twist_mux-12] [INFO] [1751028906.701728552] [twist_mux]: Topic handler 'topics.phone' subscribed to topic 'phone_vel': timeout = 0.500000s , priority = 98.
+[twist_mux-12] [INFO] [1751028906.702203554] [twist_mux]: Topic handler 'topics.rviz_joy' subscribed to topic 'rviz_joy_vel': timeout = 0.500000s , priority = 95.
+[twist_mux-12] [INFO] [1751028906.702634684] [twist_mux]: Topic handler 'topics.servoing_cmd_vel' subscribed to topic 'servoing_cmd_vel': timeout = 0.500000s , priority = 20.
+[twist_mux-12] [INFO] [1751028906.703632559] [twist_mux]: Topic handler 'topics.tablet' subscribed to topic 'tab_vel': timeout = 0.500000s , priority = 100.
+[twist_mux-12] [INFO] [1751028906.704279623] [twist_mux]: Topic handler 'locks.joystick' subscribed to topic 'joy_priority': timeout = None , priority = 100.
+[twist_mux-12] [INFO] [1751028906.705299319] [twist_mux]: Topic handler 'locks.loop_closure' subscribed to topic 'stop_closing_loop': timeout = None , priority = 200.
+[twist_mux-12] [INFO] [1751028906.705833860] [twist_mux]: Topic handler 'locks.pause' subscribed to topic 'pause_navigation': timeout = None , priority = 100.
+[static_transform_publisher-16] [INFO] [1751028906.705571238] [link_broadcast]: Spinning until stopped - publishing transform
+[static_transform_publisher-16] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-16] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-16] from 'map' to 'odom'
+[robot_state_publisher-15] [INFO] [1751028906.853061550] [robot_state_publisher]: got segment arm_1_link
+[robot_state_publisher-15] [INFO] [1751028906.853488260] [robot_state_publisher]: got segment arm_2_link
+[robot_state_publisher-15] [INFO] [1751028906.853530473] [robot_state_publisher]: got segment arm_3_link
+[robot_state_publisher-15] [INFO] [1751028906.853556307] [robot_state_publisher]: got segment arm_4_link
+[robot_state_publisher-15] [INFO] [1751028906.853578694] [robot_state_publisher]: got segment arm_5_link
+[robot_state_publisher-15] [INFO] [1751028906.853600072] [robot_state_publisher]: got segment arm_6_link
+[robot_state_publisher-15] [INFO] [1751028906.853621128] [robot_state_publisher]: got segment arm_7_link
+[robot_state_publisher-15] [INFO] [1751028906.853642225] [robot_state_publisher]: got segment arm_tool_link
+[robot_state_publisher-15] [INFO] [1751028906.853664544] [robot_state_publisher]: got segment base_antenna_left_link
+[robot_state_publisher-15] [INFO] [1751028906.853687234] [robot_state_publisher]: got segment base_antenna_right_link
+[robot_state_publisher-15] [INFO] [1751028906.853709013] [robot_state_publisher]: got segment base_cover_link
+[robot_state_publisher-15] [INFO] [1751028906.853730892] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-15] [INFO] [1751028906.853752018] [robot_state_publisher]: got segment base_imu_link
+[robot_state_publisher-15] [INFO] [1751028906.853773702] [robot_state_publisher]: got segment base_laser_link
+[robot_state_publisher-15] [INFO] [1751028906.853794719] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-15] [INFO] [1751028906.853815556] [robot_state_publisher]: got segment base_mic_back_left_link
+[robot_state_publisher-15] [INFO] [1751028906.853836734] [robot_state_publisher]: got segment base_mic_back_right_link
+[robot_state_publisher-15] [INFO] [1751028906.853859003] [robot_state_publisher]: got segment base_mic_front_left_link
+[robot_state_publisher-15] [INFO] [1751028906.853881063] [robot_state_publisher]: got segment base_mic_front_right_link
+[robot_state_publisher-15] [INFO] [1751028906.853903492] [robot_state_publisher]: got segment base_sonar_01_link
+[robot_state_publisher-15] [INFO] [1751028906.853926366] [robot_state_publisher]: got segment base_sonar_02_link
+[robot_state_publisher-15] [INFO] [1751028906.853950195] [robot_state_publisher]: got segment base_sonar_03_link
+[robot_state_publisher-15] [INFO] [1751028906.853973862] [robot_state_publisher]: got segment caster_back_left_1_link
+[robot_state_publisher-15] [INFO] [1751028906.853997309] [robot_state_publisher]: got segment caster_back_left_2_link
+[robot_state_publisher-15] [INFO] [1751028906.854021255] [robot_state_publisher]: got segment caster_back_right_1_link
+[robot_state_publisher-15] [INFO] [1751028906.854045157] [robot_state_publisher]: got segment caster_back_right_2_link
+[robot_state_publisher-15] [INFO] [1751028906.854068630] [robot_state_publisher]: got segment caster_front_left_1_link
+[robot_state_publisher-15] [INFO] [1751028906.854091567] [robot_state_publisher]: got segment caster_front_left_2_link
+[robot_state_publisher-15] [INFO] [1751028906.854115450] [robot_state_publisher]: got segment caster_front_right_1_link
+[robot_state_publisher-15] [INFO] [1751028906.854139565] [robot_state_publisher]: got segment caster_front_right_2_link
+[robot_state_publisher-15] [INFO] [1751028906.854164126] [robot_state_publisher]: got segment gripper_grasping_frame
+[robot_state_publisher-15] [INFO] [1751028906.854212335] [robot_state_publisher]: got segment gripper_left_finger_link
+[robot_state_publisher-15] [INFO] [1751028906.854241034] [robot_state_publisher]: got segment gripper_link
+[robot_state_publisher-15] [INFO] [1751028906.854265989] [robot_state_publisher]: got segment gripper_right_finger_link
+[robot_state_publisher-15] [INFO] [1751028906.854289160] [robot_state_publisher]: got segment gripper_tool_link
+[robot_state_publisher-15] [INFO] [1751028906.854313058] [robot_state_publisher]: got segment head_1_link
+[robot_state_publisher-15] [INFO] [1751028906.854336846] [robot_state_publisher]: got segment head_2_link
+[robot_state_publisher-15] [INFO] [1751028906.854360363] [robot_state_publisher]: got segment head_front_camera_depth_frame
+[robot_state_publisher-15] [INFO] [1751028906.854384104] [robot_state_publisher]: got segment head_front_camera_depth_optical_frame
+[robot_state_publisher-15] [INFO] [1751028906.854408976] [robot_state_publisher]: got segment head_front_camera_link
+[robot_state_publisher-15] [INFO] [1751028906.854432578] [robot_state_publisher]: got segment head_front_camera_optical_frame
+[robot_state_publisher-15] [INFO] [1751028906.854457114] [robot_state_publisher]: got segment head_front_camera_orbbec_aux_joint_frame
+[robot_state_publisher-15] [INFO] [1751028906.854480941] [robot_state_publisher]: got segment head_front_camera_rgb_frame
+[robot_state_publisher-15] [INFO] [1751028906.854504593] [robot_state_publisher]: got segment head_front_camera_rgb_optical_frame
+[robot_state_publisher-15] [INFO] [1751028906.854527975] [robot_state_publisher]: got segment suspension_left_link
+[robot_state_publisher-15] [INFO] [1751028906.854551176] [robot_state_publisher]: got segment suspension_right_link
+[robot_state_publisher-15] [INFO] [1751028906.854575124] [robot_state_publisher]: got segment torso_fixed_column_link
+[robot_state_publisher-15] [INFO] [1751028906.854675815] [robot_state_publisher]: got segment torso_fixed_link
+[robot_state_publisher-15] [INFO] [1751028906.854708824] [robot_state_publisher]: got segment torso_lift_link
+[robot_state_publisher-15] [INFO] [1751028906.854733904] [robot_state_publisher]: got segment wheel_left_link
+[robot_state_publisher-15] [INFO] [1751028906.854757025] [robot_state_publisher]: got segment wheel_right_link
+[robot_state_publisher-15] [INFO] [1751028906.854781044] [robot_state_publisher]: got segment wrist_ft_link
+[robot_state_publisher-15] [INFO] [1751028906.854804639] [robot_state_publisher]: got segment wrist_ft_tool_link
+[spawner-9] [INFO] [1751028907.707910250] [spawner_ft_sensor_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-5] [INFO] [1751028907.728540436] [spawner_imu_sensor_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [INFO] [1751028907.728718941] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-7] [INFO] [1751028907.747559027] [spawner_head_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-3] [INFO] [1751028907.818850627] [spawner_mobile_base_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-6] [INFO] [1751028907.830672531] [spawner_torso_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-4] [INFO] [1751028907.838167511] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [INFO] [1751028907.840238751] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawn_entity.py-2] [INFO] [1751028908.076298860] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-2] [INFO] [1751028908.076916628] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-2] /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/qos.py:307: UserWarning: DurabilityPolicy.RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL is deprecated. Use DurabilityPolicy.TRANSIENT_LOCAL instead.
+[spawn_entity.py-2]   warnings.warn(
+[spawn_entity.py-2] [INFO] [1751028908.080378384] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-2] [INFO] [1751028909.609042790] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-2] [INFO] [1751028909.611929516] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-2] [INFO] [1751028911.154609614] [spawn_entity]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1751028912.420024920] [base_imu]: <initial_orientation_as_reference> is unset, using default value of false to comply with REP 145 (world as orientation reference)
+[gzserver-1] [INFO] [1751028913.485357736] [head_front_camera_frame_controller]: Publishing camera info to [/head_front_camera/rgb/camera_info]
+[gzserver-1] [INFO] [1751028913.496832893] [head_front_camera_frame_controller]: Publishing depth camera info to [/head_front_camera/depth_registered/camera_info]
+[gzserver-1] [INFO] [1751028913.499758113] [head_front_camera_frame_controller]: Publishing pointcloud to [/head_front_camera/depth_registered/points]
+[spawn_entity.py-2] [INFO] [1751028913.512458249] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [tiago]
+[gzserver-1] [INFO] [1751028913.695598050] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-1] [INFO] [1751028913.728076539] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-1] [INFO] [1751028913.728268136] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[INFO] [spawn_entity.py-2]: process has finished cleanly [pid 190984]
+[gzserver-1] [INFO] [1751028913.750663222] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-1] [INFO] [1751028913.752971573] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-1] [INFO] [1751028913.753064536] [gazebo_ros2_control]: Loading parameter files /home/forough/Desktop/causal_navigation/install/tiago_description/share/tiago_description/ros2_control/gazebo_controller_manager_cfg.yaml
+[gzserver-1] [INFO] [1751028913.781763789] [gazebo_ros2_control]: Loading joint: wheel_right_joint
+[gzserver-1] [INFO] [1751028913.781852489] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.781869668] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.781884115] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.781929214] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.783207525] [gazebo_ros2_control]: Loading joint: wheel_left_joint
+[gzserver-1] [INFO] [1751028913.783276476] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.783297006] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.783316438] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.783357119] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.784694429] [gazebo_ros2_control]: Loading joint: torso_lift_joint
+[gzserver-1] [INFO] [1751028913.784755480] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.784776206] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.784798645] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.784814375] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.784825140] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.784834818] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.785772710] [gazebo_ros2_control]: Loading joint: arm_1_joint
+[gzserver-1] [INFO] [1751028913.785835405] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.785857433] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.785875160] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.785892521] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.785910807] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.785929189] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.786909581] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.788614941] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.788733553] [gazebo_ros2_control]: Loading joint: arm_2_joint
+[gzserver-1] [INFO] [1751028913.788771197] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.788801744] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.788849232] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.788876325] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.788902380] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.788928418] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.790233389] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.791976897] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.792115640] [gazebo_ros2_control]: Loading joint: arm_3_joint
+[gzserver-1] [INFO] [1751028913.792150268] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.792178351] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.792225619] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.792252505] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.792279013] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.792306867] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.793851174] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.795069208] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.795166308] [gazebo_ros2_control]: Loading joint: arm_4_joint
+[gzserver-1] [INFO] [1751028913.795220717] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.795254535] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.795286535] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.795317390] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.795377673] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.795414549] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.797279853] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.798398003] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.798473936] [gazebo_ros2_control]: Loading joint: arm_5_joint
+[gzserver-1] [INFO] [1751028913.798501511] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.798521344] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.798540355] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.798556925] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.798573647] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.798590163] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.800428114] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.801631850] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.801745185] [gazebo_ros2_control]: Loading joint: arm_6_joint
+[gzserver-1] [INFO] [1751028913.801788375] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.801825808] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.801861091] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.801895848] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.801929129] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.801961939] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.803946926] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.805424819] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.805529507] [gazebo_ros2_control]: Loading joint: arm_7_joint
+[gzserver-1] [INFO] [1751028913.805566905] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.805599912] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.805632304] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.805662356] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.805691048] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.805719863] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.807063014] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.808284289] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.808389667] [gazebo_ros2_control]: Loading joint: gripper_left_finger_joint
+[gzserver-1] [INFO] [1751028913.808426860] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.808458702] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.808488889] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.808517184] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.808545743] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.808573234] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.810033579] [gazebo_ros2_control]: Loading joint: gripper_right_finger_joint
+[gzserver-1] [INFO] [1751028913.810132632] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.810167288] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.810217572] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.810251575] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.810281854] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.810311110] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.812042199] [gazebo_ros2_control]: Loading joint: head_1_joint
+[gzserver-1] [INFO] [1751028913.812133915] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.812228132] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.812273875] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.812304335] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.812332639] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.812360579] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.813838895] [gazebo_ros2_control]: Loading joint: head_2_joint
+[gzserver-1] [INFO] [1751028913.813930104] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.813948672] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.814014356] [gazebo_ros2_control]: 		 velocity
+[gzserver-1] [INFO] [1751028913.814027464] [gazebo_ros2_control]: 		 effort
+[gzserver-1] [INFO] [1751028913.814039461] [gazebo_ros2_control]: 	Command:
+[gzserver-1] [INFO] [1751028913.814051214] [gazebo_ros2_control]: 		 position
+[gzserver-1] [INFO] [1751028913.815344200] [gazebo_ros2_control]: Loading sensor: base_imu_sensor
+[gzserver-1] [INFO] [1751028913.815398823] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.815434865] [gazebo_ros2_control]: 		 orientation.x
+[gzserver-1] [INFO] [1751028913.815449991] [gazebo_ros2_control]: 		 orientation.y
+[gzserver-1] [INFO] [1751028913.815461762] [gazebo_ros2_control]: 		 orientation.z
+[gzserver-1] [INFO] [1751028913.815472752] [gazebo_ros2_control]: 		 orientation.w
+[gzserver-1] [INFO] [1751028913.815484109] [gazebo_ros2_control]: 		 angular_velocity.x
+[gzserver-1] [INFO] [1751028913.815496950] [gazebo_ros2_control]: 		 angular_velocity.y
+[gzserver-1] [INFO] [1751028913.815508765] [gazebo_ros2_control]: 		 angular_velocity.z
+[gzserver-1] [INFO] [1751028913.815520352] [gazebo_ros2_control]: 		 linear_acceleration.x
+[gzserver-1] [INFO] [1751028913.815566191] [gazebo_ros2_control]: 		 linear_acceleration.y
+[gzserver-1] [INFO] [1751028913.815582043] [gazebo_ros2_control]: 		 linear_acceleration.z
+[gzserver-1] [INFO] [1751028913.815595124] [gazebo_ros2_control]: Loading sensor: wrist_ft_sensor
+[gzserver-1] [INFO] [1751028913.815607114] [gazebo_ros2_control]: 	State:
+[gzserver-1] [INFO] [1751028913.815623072] [gazebo_ros2_control]: 		 force.x
+[gzserver-1] [INFO] [1751028913.815635597] [gazebo_ros2_control]: 		 force.y
+[gzserver-1] [INFO] [1751028913.815647147] [gazebo_ros2_control]: 		 force.z
+[gzserver-1] [INFO] [1751028913.815658537] [gazebo_ros2_control]: 		 torque.x
+[gzserver-1] [INFO] [1751028913.815670174] [gazebo_ros2_control]: 		 torque.y
+[gzserver-1] [INFO] [1751028913.815680965] [gazebo_ros2_control]: 		 torque.z
+[gzserver-1] [INFO] [1751028913.815802680] [resource_manager]: Initialize hardware 'ros2_control_tiago_system' 
+[gzserver-1] [INFO] [1751028913.816172130] [resource_manager]: Successful initialization of hardware 'ros2_control_tiago_system'
+[gzserver-1] [INFO] [1751028913.816525470] [resource_manager]: 'configure' hardware 'ros2_control_tiago_system' 
+[gzserver-1] [INFO] [1751028913.816561165] [resource_manager]: Successful 'configure' of hardware 'ros2_control_tiago_system'
+[gzserver-1] [INFO] [1751028913.816649979] [resource_manager]: 'activate' hardware 'ros2_control_tiago_system' 
+[gzserver-1] [INFO] [1751028913.816667915] [resource_manager]: Successful 'activate' of hardware 'ros2_control_tiago_system'
+[gzserver-1] [INFO] [1751028913.816921292] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-1] [WARN] [1751028913.901432970] [gazebo_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-1] [INFO] [1751028913.902254539] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[spawner-9] [INFO] [1751028913.980432507] [spawner_ft_sensor_controller]: [96mSet controller type to "force_torque_sensor_broadcaster/ForceTorqueSensorBroadcaster" for [1mft_sensor_controller[0m
+[spawner-9] [INFO] [1751028913.986929379] [spawner_ft_sensor_controller]: [96mSet controller params file to "/home/forough/Desktop/causal_navigation/install/tiago_controller_configuration/share/tiago_controller_configuration/config/ft_sensor_controller.yaml" for [1mft_sensor_controller[0m
+[gzserver-1] [INFO] [1751028913.990788485] [controller_manager]: Loading controller 'ft_sensor_controller'
+[spawner-9] [INFO] [1751028914.103039195] [spawner_ft_sensor_controller]: [94mLoaded [1mft_sensor_controller[0m
+[gzserver-1] [INFO] [1751028914.108886931] [controller_manager]: Configuring controller 'ft_sensor_controller'
+[spawner-5] [INFO] [1751028914.279640987] [spawner_imu_sensor_broadcaster]: [96mSet controller type to "imu_sensor_broadcaster/IMUSensorBroadcaster" for [1mimu_sensor_broadcaster[0m
+[spawner-7] [INFO] [1751028914.279948319] [spawner_head_controller]: [96mSet controller type to "joint_trajectory_controller/JointTrajectoryController" for [1mhead_controller[0m
+[spawner-4] [INFO] [1751028914.281719986] [spawner_joint_state_broadcaster]: [96mSet controller type to "joint_state_broadcaster/JointStateBroadcaster" for [1mjoint_state_broadcaster[0m
+[spawner-6] [INFO] [1751028914.285578881] [spawner_torso_controller]: [96mSet controller type to "joint_trajectory_controller/JointTrajectoryController" for [1mtorso_controller[0m
+[spawner-8] [INFO] [1751028914.286153297] [spawner_arm_controller]: [96mSet controller type to "joint_trajectory_controller/JointTrajectoryController" for [1marm_controller[0m
+[spawner-3] [INFO] [1751028914.291199538] [spawner_mobile_base_controller]: [96mSet controller type to "diff_drive_controller/DiffDriveController" for [1mmobile_base_controller[0m
+[spawner-5] [INFO] [1751028914.293766276] [spawner_imu_sensor_broadcaster]: [96mSet controller params file to "/home/forough/Desktop/causal_navigation/install/tiago_controller_configuration/share/tiago_controller_configuration/config/imu_sensor_broadcaster.yaml" for [1mimu_sensor_broadcaster[0m
+[gzserver-1] [INFO] [1751028914.651338261] [controller_manager]: Loading controller 'imu_sensor_broadcaster'
+[spawner-9] [INFO] [1751028914.652484923] [spawner_ft_sensor_controller]: [92mConfigured and activated [1mft_sensor_controller[0m
+[spawner-10] [INFO] [1751028914.653513997] [spawner_gripper_controller]: [96mSet controller type to "joint_trajectory_controller/JointTrajectoryController" for [1mgripper_controller[0m
+[spawner-5] [INFO] [1751028914.860363608] [spawner_imu_sensor_broadcaster]: [94mLoaded [1mimu_sensor_broadcaster[0m
+[spawner-4] [INFO] [1751028914.861342659] [spawner_joint_state_broadcaster]: [96mSet controller params file to "/home/forough/Desktop/causal_navigation/install/tiago_controller_configuration/share/tiago_controller_configuration/config/joint_state_broadcaster.yaml" for [1mjoint_state_broadcaster[0m
+[spawner-7] [INFO] [1751028914.862313698] [spawner_head_controller]: [96mSet controller params file to "/home/forough/Desktop/causal_navigation/install/tiago_controller_configuration/share/tiago_controller_configuration/config/head_controller.yaml" for [1mhead_controller[0m
+[spawner-6] [INFO] [1751028914.863120208] [spawner_torso_controller]: [96mSet controller params file to "/home/forough/Desktop/causal_navigation/install/tiago_controller_configuration/share/tiago_controller_configuration/config/torso_controller.yaml" for [1mtorso_controller[0m
+[spawner-8] [INFO] [1751028914.864057320] [spawner_arm_controller]: [96mSet controller params file to "/home/forough/Desktop/causal_navigation/install/tiago_controller_configuration/share/tiago_controller_configuration/config/arm_controller.yaml" for [1marm_controller[0m
+[gzserver-1] [INFO] [1751028914.866673774] [controller_manager]: Configuring controller 'imu_sensor_broadcaster'
+[spawner-3] [INFO] [1751028914.867010690] [spawner_mobile_base_controller]: [96mSet controller params file to "/home/forough/Desktop/causal_navigation/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/mobile_base_controller_public_sim.yaml" for [1mmobile_base_controller[0m
+[spawner-10] [INFO] [1751028914.867374226] [spawner_gripper_controller]: [96mSet controller params file to "/tmp/tmp587iglb_" for [1mgripper_controller[0m
+[INFO] [spawner-9]: process has finished cleanly [pid 191003]
+[gzserver-1] [INFO] [1751028915.041007145] [controller_manager]: Loading controller 'head_controller'
+[gzserver-1] [WARN] [1751028915.103860701] [head_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1751028915.277385923] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-7] [INFO] [1751028915.279228556] [spawner_head_controller]: [94mLoaded [1mhead_controller[0m
+[spawner-4] [INFO] [1751028915.469576840] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[gzserver-1] [INFO] [1751028915.857971275] [controller_manager]: Loading controller 'torso_controller'
+[spawner-5] [INFO] [1751028915.859558312] [spawner_imu_sensor_broadcaster]: [92mConfigured and activated [1mimu_sensor_broadcaster[0m
+[gzserver-1] [WARN] [1751028915.924383598] [torso_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1751028916.072970159] [controller_manager]: Configuring controller 'head_controller'
+[gzserver-1] [INFO] [1751028916.073494890] [head_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1751028916.073653890] [head_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1751028916.073793437] [head_controller]: Using 'splines' interpolation method.
+[spawner-6] [INFO] [1751028916.074764974] [spawner_torso_controller]: [94mLoaded [1mtorso_controller[0m
+[gzserver-1] [INFO] [1751028916.079597824] [head_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1751028916.093243943] [head_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [spawner-5]: process has finished cleanly [pid 190991]
+[gzserver-1] [INFO] [1751028916.257787617] [controller_manager]: Loading controller 'mobile_base_controller'
+[gzserver-1] [INFO] [1751028916.433411363] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[gzserver-1] [INFO] [1751028916.433719457] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-3] [INFO] [1751028916.435200447] [spawner_mobile_base_controller]: [94mLoaded [1mmobile_base_controller[0m
+[gzserver-1] [INFO] [1751028916.586974827] [controller_manager]: Loading controller 'arm_controller'
+[gzserver-1] [WARN] [1751028916.648377332] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1751028916.772365886] [controller_manager]: Configuring controller 'torso_controller'
+[gzserver-1] [INFO] [1751028916.772629311] [torso_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1751028916.772672360] [torso_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1751028916.772702205] [torso_controller]: Using 'splines' interpolation method.
+[spawner-8] [INFO] [1751028916.776919155] [spawner_arm_controller]: [94mLoaded [1marm_controller[0m
+[gzserver-1] [INFO] [1751028916.780339002] [torso_controller]: Controller state will be published at 50.00 Hz.
+[play_motion2_node-11] [33m[WARN] [1751028916.858554575] [play_motion2]: Waiting for /robot_description_semantic to be published[0m
+[gzserver-1] [INFO] [1751028916.968863528] [torso_controller]: Action status changes will be monitored at 20.00 Hz.
+[gzserver-1] [INFO] [1751028917.507885249] [controller_manager]: Loading controller 'gripper_controller'
+[spawner-7] [INFO] [1751028917.509172342] [spawner_head_controller]: [92mConfigured and activated [1mhead_controller[0m
+[gzserver-1] [WARN] [1751028917.714679033] [gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[gzserver-1] [INFO] [1751028917.737453217] [controller_manager]: Configuring controller 'mobile_base_controller'
+[spawner-10] [INFO] [1751028917.739527331] [spawner_gripper_controller]: [94mLoaded [1mgripper_controller[0m
+[INFO] [spawner-7]: process has finished cleanly [pid 190997]
+[gzserver-1] [INFO] [1751028918.230623240] [controller_manager]: Configuring controller 'arm_controller'
+[gzserver-1] [INFO] [1751028918.231072709] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1751028918.231126351] [arm_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1751028918.231163815] [arm_controller]: Using 'splines' interpolation method.
+[spawner-4] [INFO] [1751028918.231229817] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[gzserver-1] [INFO] [1751028918.233220255] [arm_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1751028918.236929766] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [spawner-4]: process has finished cleanly [pid 190988]
+[gzserver-1] [INFO] [1751028918.669171968] [controller_manager]: Configuring controller 'gripper_controller'
+[gzserver-1] [INFO] [1751028918.669394791] [gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gzserver-1] [INFO] [1751028918.669422863] [gripper_controller]: Command interfaces are [position] and state interfaces are [position].
+[gzserver-1] [INFO] [1751028918.669442055] [gripper_controller]: Using 'splines' interpolation method.
+[spawner-6] [INFO] [1751028918.669886141] [spawner_torso_controller]: [92mConfigured and activated [1mtorso_controller[0m
+[gzserver-1] [INFO] [1751028918.671113928] [gripper_controller]: Controller state will be published at 50.00 Hz.
+[gzserver-1] [INFO] [1751028918.674003763] [gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [spawner-6]: process has finished cleanly [pid 190994]
+[spawner-3] [INFO] [1751028919.104997870] [spawner_mobile_base_controller]: [92mConfigured and activated [1mmobile_base_controller[0m
+[INFO] [spawner-3]: process has finished cleanly [pid 190986]
+[spawner-8] [INFO] [1751028919.388018105] [spawner_arm_controller]: [92mConfigured and activated [1marm_controller[0m
+[INFO] [spawner-8]: process has finished cleanly [pid 191000]
+[spawner-10] [INFO] [1751028919.690062071] [spawner_gripper_controller]: [92mConfigured and activated [1mgripper_controller[0m
+[INFO] [spawner-10]: process has finished cleanly [pid 191007]
+[play_motion2_node-11] [33m[WARN] [1751028926.859249687] [play_motion2]: Waiting for /robot_description_semantic to be published[0m
+[play_motion2_node-11] [33m[WARN] [1751028936.859439234] [play_motion2]: Waiting for /robot_description_semantic to be published[0m
+[play_motion2_node-11] [33m[WARN] [1751028946.859660087] [play_motion2]: Waiting for /robot_description_semantic to be published[0m
+[play_motion2_node-11] [0m[INFO] [1751028951.261220155] [rclcpp]: signal_handler(signum=2)[0m
+[twist_mux-12] [INFO] [1751028951.261253232] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-15] [INFO] [1751028951.261354239] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-16] [INFO] [1751028951.261376370] [rclcpp]: signal_handler(signum=2)
+[twist_marker-13] [INFO] [1751028951.261346057] [rclcpp]: signal_handler(signum=2)
+[play_motion2_node-11] [33m[WARN] [1751028951.261551644] [play_motion2]: Waiting for /robot_description_semantic to be published[0m
+[play_motion2_node-11] [31m[ERROR] [1751028951.313042302] [play_motion2]: Caught exception in callback for transition 10[0m
+[play_motion2_node-11] [31m[ERROR] [1751028951.313127675] [play_motion2]: Original error: failed to create guard condition: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67[0m
+[play_motion2_node-11] [31m[ERROR] [1751028951.313248597] [play_motion2]: Failed to finish transition 1. Current state is now: errorprocessing (Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368)[0m
+[play_motion2_node-11] [33m[WARN] [1751028951.313364760] [rcl_lifecycle]: No transition matching 3 found for current state errorprocessing[0m
+[play_motion2_node-11] [31m[ERROR] [1751028951.313422098] [play_motion2]: Unable to start transition 3 from current state errorprocessing: Transition is not registered., at ./src/rcl_lifecycle.c:355[0m
+[INFO] [twist_marker-13]: process has finished cleanly [pid 191014]
+[INFO] [static_transform_publisher-16]: process has finished cleanly [pid 191020]
+[INFO] [robot_state_publisher-15]: process has finished cleanly [pid 191018]
+[INFO] [twist_mux-12]: process has finished cleanly [pid 191012]
+[INFO] [play_motion2_node-11]: process has finished cleanly [pid 191010]
+[INFO] [joystick_relay.py-14]: process has finished cleanly [pid 191016]

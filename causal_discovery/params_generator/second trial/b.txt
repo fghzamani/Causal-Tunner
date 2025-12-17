@@ -1,0 +1,508 @@
+[INFO] [launch]: All log files can be found below /home/forough/.ros/log/2025-06-27-14-55-08-328727-forough-Precision-5770-191233
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [191430]
+[INFO] [amcl-2]: process started with pid [191432]
+[INFO] [lifecycle_manager-3]: process started with pid [191434]
+[INFO] [controller_server-4]: process started with pid [191436]
+[INFO] [smoother_server-5]: process started with pid [191438]
+[INFO] [planner_server-6]: process started with pid [191440]
+[INFO] [behavior_server-7]: process started with pid [191442]
+[INFO] [bt_navigator-8]: process started with pid [191449]
+[INFO] [waypoint_follower-9]: process started with pid [191451]
+[INFO] [velocity_smoother-10]: process started with pid [191453]
+[INFO] [lifecycle_manager-11]: process started with pid [191455]
+[lifecycle_manager-3] [INFO] [1751028909.507064888] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-3] [INFO] [1751028909.543838159] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[lifecycle_manager-11] [INFO] [1751028909.570452486] [lifecycle_manager_navigation]: Creating
+[amcl-2] [INFO] [1751028909.590878485] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1751028909.593658346] [amcl]: Creating
+[lifecycle_manager-11] [INFO] [1751028909.596595885] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[velocity_smoother-10] [INFO] [1751028909.609943297] [velocity_smoother]: 
+[velocity_smoother-10] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-10] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1751028909.614882679] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-5] [INFO] [1751028909.618592641] [smoother_server]: 
+[smoother_server-5] 	smoother_server lifecycle node launched. 
+[smoother_server-5] 	Waiting on external lifecycle transitions to activate
+[smoother_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1751028909.625194613] [waypoint_follower]: Creating
+[controller_server-4] [INFO] [1751028909.631649266] [controller_server]: 
+[controller_server-4] 	controller_server lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-5] [INFO] [1751028909.640239419] [smoother_server]: Creating smoother server
+[planner_server-6] [INFO] [1751028909.640546667] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1751028909.652450358] [planner_server]: Creating
+[controller_server-4] [INFO] [1751028909.659066567] [controller_server]: Creating controller server
+[controller_server-4] [INFO] [1751028909.721095992] [local_costmap.local_costmap]: 
+[controller_server-4] 	local_costmap lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1751028909.723512825] [local_costmap.local_costmap]: Creating Costmap
+[behavior_server-7] [INFO] [1751028909.926035318] [behavior_server]: 
+[behavior_server-7] 	behavior_server lifecycle node launched. 
+[behavior_server-7] 	Waiting on external lifecycle transitions to activate
+[behavior_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1751028909.974806975] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1751028909.977456340] [global_costmap.global_costmap]: Creating Costmap
+[map_server-1] [INFO] [1751028909.988120817] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1751028909.988539516] [map_server]: Creating
+[bt_navigator-8] [INFO] [1751028910.022808023] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1751028910.023156595] [bt_navigator]: Creating
+[lifecycle_manager-3] [INFO] [1751028910.208426267] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1751028910.208613515] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1751028910.209554827] [map_server]: Configuring
+[map_server-1] [INFO] [map_io]: Loading yaml file: /home/forough/Desktop/causal_navigation/src/pmb2_navigation/pmb2_maps/config/map.yaml
+[map_server-1] [DEBUG] [map_io]: resolution: 0.05
+[map_server-1] [DEBUG] [map_io]: origin[0]: -6.01
+[map_server-1] [DEBUG] [map_io]: origin[1]: -5.01
+[map_server-1] [DEBUG] [map_io]: origin[2]: 0
+[map_server-1] [DEBUG] [map_io]: free_thresh: 0.25
+[map_server-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-1] [DEBUG] [map_io]: mode: trinary
+[map_server-1] [DEBUG] [map_io]: negate: 0
+[map_server-1] [INFO] [map_io]: Loading image_file: /home/forough/Desktop/causal_navigation/src/pmb2_navigation/pmb2_maps/config/map.pgm
+[map_server-1] [DEBUG] [map_io]: Read map /home/forough/Desktop/causal_navigation/src/pmb2_navigation/pmb2_maps/config/map.pgm: 216 X 304 map @ 0.05 m/cell
+[lifecycle_manager-3] [INFO] [1751028910.272769467] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1751028910.273864194] [amcl]: Configuring
+[amcl-2] [INFO] [1751028910.274241505] [amcl]: initTransforms
+[lifecycle_manager-11] [INFO] [1751028910.321323544] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1751028910.321479242] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-4] [INFO] [1751028910.323151609] [controller_server]: Configuring controller interface
+[amcl-2] [INFO] [1751028910.323676937] [amcl]: initPubSub
+[controller_server-4] [INFO] [1751028910.323815555] [controller_server]: getting goal checker plugins..
+[controller_server-4] [INFO] [1751028910.325226825] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-4] [INFO] [1751028910.325408065] [local_costmap.local_costmap]: Configuring
+[amcl-2] [INFO] [1751028910.340391896] [amcl]: Subscribed to map topic.
+[controller_server-4] [INFO] [1751028910.347753128] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[lifecycle_manager-3] [INFO] [1751028910.356412143] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1751028910.357533337] [map_server]: Activating
+[map_server-1] [INFO] [1751028910.358112163] [map_server]: Creating bond (map_server) to lifecycle manager.
+[controller_server-4] [INFO] [1751028910.358016410] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-4] [INFO] [1751028910.382437990] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-4] [INFO] [1751028910.382543400] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-4] [INFO] [1751028910.384679022] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-4] [INFO] [1751028910.411647918] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-4] [INFO] [1751028910.413925669] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-4] [INFO] [1751028910.414959323] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-4] [INFO] [1751028910.420062821] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-4] [INFO] [1751028910.422796434] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-4] [INFO] [1751028910.460771259] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-4] [INFO] [1751028910.463201450] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1751028910.463682295] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-4] [INFO] [1751028910.465396424] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1751028910.465896797] [controller_server]: Using critic "ObstacleFootprint" (dwb_critics::ObstacleFootprintCritic)
+[controller_server-4] [INFO] [1751028910.466580700] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1751028910.466984752] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-4] [INFO] [1751028910.468312214] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1751028910.468786685] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-4] [INFO] [1751028910.470026543] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1751028910.470542175] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-4] [INFO] [1751028910.471327496] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1751028910.471682777] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-4] [INFO] [1751028910.472437231] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1751028910.472512802] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-3] [INFO] [1751028910.478835576] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1751028910.478953687] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1751028910.478915840] [amcl]: Received a 216 X 304 map @ 0.050 m/pix
+[amcl-2] [INFO] [1751028910.483426134] [amcl]: Activating
+[amcl-2] [INFO] [1751028910.483534053] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1751028910.483722812] [amcl]: Setting pose (1751028910.483722): 0.000 0.000 0.000
+[amcl-2] [INFO] [1751028910.485335647] [amcl]: Creating bond (amcl) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028910.499206758] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-5] [INFO] [1751028910.499796788] [smoother_server]: Configuring smoother server
+[smoother_server-5] [INFO] [1751028910.529909924] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-5] [INFO] [1751028910.532460184] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-11] [INFO] [1751028910.551016639] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-6] [INFO] [1751028910.551703170] [planner_server]: Configuring
+[planner_server-6] [INFO] [1751028910.551847956] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1751028910.570981742] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1751028910.582592218] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1751028910.586635640] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-6] [INFO] [1751028910.586726871] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-6] [INFO] [1751028910.588917616] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[lifecycle_manager-3] [INFO] [1751028910.597986478] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-3] [INFO] [1751028910.598103142] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1751028910.598147073] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[planner_server-6] [INFO] [1751028910.605031736] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-6] [INFO] [1751028910.605143951] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-6] [INFO] [1751028910.608474681] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-6] [INFO] [1751028910.608626432] [global_costmap.global_costmap]: Using costmap filter "speed_filter"
+[planner_server-6] [INFO] [1751028910.618059962] [global_costmap.global_costmap]: Initialized costmap filter "speed_filter"
+[planner_server-6] [INFO] [1751028910.643586801] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 216 X 304 at 0.050000 m/pix
+[planner_server-6] [INFO] [1751028910.644711518] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-6] [INFO] [1751028910.644808695] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1751028910.646310146] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-11] [INFO] [1751028910.667839823] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-7] [INFO] [1751028910.668421530] [behavior_server]: Configuring
+[behavior_server-7] [INFO] [1751028910.687145803] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-7] [INFO] [1751028910.688810263] [behavior_server]: Configuring spin
+[behavior_server-7] [INFO] [1751028910.699905148] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-7] [INFO] [1751028910.701591813] [behavior_server]: Configuring backup
+[behavior_server-7] [INFO] [1751028910.710985780] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-7] [INFO] [1751028910.712586988] [behavior_server]: Configuring drive_on_heading
+[behavior_server-7] [INFO] [1751028910.720865199] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-7] [INFO] [1751028910.722703825] [behavior_server]: Configuring wait
+[lifecycle_manager-11] [INFO] [1751028910.732606607] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1751028910.733065821] [bt_navigator]: Configuring
+[lifecycle_manager-11] [INFO] [1751028910.902739267] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1751028910.903458931] [waypoint_follower]: Configuring
+[waypoint_follower-9] [INFO] [1751028910.939660892] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[waypoint_follower-9] [INFO] [1751028910.940600193] [waypoint_follower]: Waypoint pause duration is set to zero, disabling task executor plugin.
+[lifecycle_manager-11] [INFO] [1751028910.941981727] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1751028910.942750292] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-11] [INFO] [1751028910.955375037] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1751028910.955818024] [controller_server]: Activating
+[controller_server-4] [INFO] [1751028910.955965422] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1751028910.956014735] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1751028910.956115703] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028911.456232336] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028911.956150490] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028912.456180390] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028912.956160200] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028913.456160591] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-2] [INFO] [1751028913.753485973] [amcl]: Message Filter dropping message: frame 'base_laser_link' at time 3895.686 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028913.956169688] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028914.456168280] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028914.956156115] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028915.456136567] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028915.956179205] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028916.456130320] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-2] [INFO] [1751028916.867525591] [amcl]: Message Filter dropping message: frame 'base_laser_link' at time 3895.787 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028916.956118512] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028917.456151056] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028917.956135591] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[lifecycle_manager-3] [INFO] [1751028917.981320781] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1751028917.981400823] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [WARN] [1751028917.982081487] [rcl_lifecycle]: No transition matching 1 found for current state active
+[map_server-1] [ERROR] [1751028917.982127483] [map_server]: Unable to start transition 1 from current state active: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[lifecycle_manager-3] [ERROR] [1751028917.982755169] [lifecycle_manager_localization]: Failed to change state for node: map_server
+[lifecycle_manager-3] [ERROR] [1751028917.982795394] [lifecycle_manager_localization]: Failed to bring up all requested nodes. Aborting bringup.
+[controller_server-4] [INFO] [1751028918.456147801] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-2] [INFO] [1751028918.930059262] [amcl]: Message Filter dropping message: frame 'base_laser_link' at time 3895.887 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028918.956137778] [local_costmap.local_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Could not find a connection between 'map' and 'base_footprint' because they are not part of the same tree.Tf has two or more unconnected trees.
+[controller_server-4] [INFO] [1751028919.456328227] [local_costmap.local_costmap]: start
+[amcl-2] [INFO] [1751028919.550222518] [amcl]: createLaserObject
+[controller_server-4] [ERROR] [1751028919.960416080] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation at time 3896.017000, but only time 3896.987000 is in the buffer, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[amcl-2] [INFO] [1751028920.108045928] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1751028920.108178343] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation at time 1751028920.108105, but only time 3896.987000 is in the buffer, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1751028920.108208318] [amcl]: Setting pose (1751028920.108208): 0.000 0.000 0.000
+[amcl-2] [INFO] [1751028920.109697025] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1751028920.109748619] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation at time 1751028920.109716, but only time 3896.987000 is in the buffer, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1751028920.109760118] [amcl]: Setting pose (1751028920.109760): 0.000 0.000 0.000
+[amcl-2] [INFO] [1751028920.111104731] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1751028920.111144393] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation at time 1751028920.111120, but only time 3896.987000 is in the buffer, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1751028920.111154338] [amcl]: Setting pose (1751028920.111154): 0.000 0.000 0.000
+[controller_server-4] [ERROR] [1751028920.263478975] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation at time 3896.037000, but only time 3896.987000 is in the buffer, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028920.566317069] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation at time 3896.057000, but only time 3896.987000 is in the buffer, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028920.967151832] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.097000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028921.089799860] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.087 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028921.270832338] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.117000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028921.574482412] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.137000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028921.974180198] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.157000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028922.277865791] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.177000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028922.461093163] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.187 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028922.581482345] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.217000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028922.981112059] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.237000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028923.283796173] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.257000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028923.586726786] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.277000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028923.848070121] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.286 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028923.987667764] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.297000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028924.291297613] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.317000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028924.594968883] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.337000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028924.995016726] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.377000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028925.297724915] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.397000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028925.368073959] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.387 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028925.601260375] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.417000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028926.001420017] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.457000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028926.304697622] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.477000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028926.607686159] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.497000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028926.630651848] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.487 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028927.007939073] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.517000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028927.310744734] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.537000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028927.613969756] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.557000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028928.013528264] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.577000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028928.191976413] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.587 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028928.316014704] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.597000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028928.618613661] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.637000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028929.018688214] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.657000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028929.321510280] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.677000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028929.554264398] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.687 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028929.624718516] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.717000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028930.025050551] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.777000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028930.328711515] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.797000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028930.426544304] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.786 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028930.632237463] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.837000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028931.032092179] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.897000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028931.258348642] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.887 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [ERROR] [1751028931.335321978] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.917000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [ERROR] [1751028931.638359401] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 3896.957000 but the earliest data is at time 3896.987000, when looking up transform from frame [base_footprint] to frame [map]
+[controller_server-4] 
+[controller_server-4] [INFO] [1751028931.858574185] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028931.965470805] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-11] [INFO] [1751028931.965541767] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1751028931.966013363] [smoother_server]: Activating
+[smoother_server-5] [INFO] [1751028931.966078326] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028932.072043636] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-11] [INFO] [1751028932.072109379] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-6] [INFO] [1751028932.072530144] [planner_server]: Activating
+[planner_server-6] [INFO] [1751028932.072581290] [global_costmap.global_costmap]: Activating
+[planner_server-6] [INFO] [1751028932.072596521] [global_costmap.global_costmap]: Checking transform
+[planner_server-6] [INFO] [1751028932.072736162] [global_costmap.global_costmap]: start
+[planner_server-6] [INFO] [1751028932.074035820] [global_costmap.global_costmap]: SpeedFilter: Subscribing to "/costmap_filter_info" topic for filter info...
+[controller_server-4] [INFO] [1751028932.076856789] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3896.987 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028932.806753514] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.087 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1751028932.807064564] [global_costmap.global_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.087 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [WARN] [1751028933.076085357] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[planner_server-6] [INFO] [1751028933.126246557] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1751028933.127949004] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028933.233381627] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-11] [INFO] [1751028933.233444891] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-7] [INFO] [1751028933.233876925] [behavior_server]: Activating
+[behavior_server-7] [INFO] [1751028933.233920067] [behavior_server]: Activating spin
+[behavior_server-7] [INFO] [1751028933.233935559] [behavior_server]: Activating backup
+[behavior_server-7] [INFO] [1751028933.233946041] [behavior_server]: Activating drive_on_heading
+[behavior_server-7] [INFO] [1751028933.233955723] [behavior_server]: Activating wait
+[behavior_server-7] [INFO] [1751028933.233969848] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028933.339439805] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-11] [INFO] [1751028933.339497166] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1751028933.339887873] [bt_navigator]: Activating
+[bt_navigator-8] [INFO] [1751028933.426141319] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[planner_server-6] [INFO] [1751028933.528257890] [global_costmap.global_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.187 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028933.528389970] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.187 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[lifecycle_manager-11] [INFO] [1751028933.533772006] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-11] [INFO] [1751028933.533825685] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1751028933.534301737] [waypoint_follower]: Activating
+[waypoint_follower-9] [INFO] [1751028933.534364192] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028933.640606145] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-11] [INFO] [1751028933.640676002] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1751028933.641154372] [velocity_smoother]: Activating
+[velocity_smoother-10] [INFO] [1751028933.641255880] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028933.747612354] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-11] [INFO] [1751028933.747684204] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-11] [INFO] [1751028933.747700054] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[lifecycle_manager-11] [INFO] [1751028933.747803153] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1751028933.747821876] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-4] [WARN] [1751028933.748377292] [rcl_lifecycle]: No transition matching 1 found for current state active
+[controller_server-4] [ERROR] [1751028933.748425387] [controller_server]: Unable to start transition 1 from current state active: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[lifecycle_manager-11] [ERROR] [1751028933.748859347] [lifecycle_manager_navigation]: Failed to change state for node: controller_server
+[lifecycle_manager-11] [ERROR] [1751028933.748878145] [lifecycle_manager_navigation]: Failed to bring up all requested nodes. Aborting bringup.
+[planner_server-6] [INFO] [1751028934.414193636] [global_costmap.global_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.286 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028934.414226253] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.286 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1751028935.070245478] [global_costmap.global_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.387 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028935.070291982] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.387 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028935.813924431] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.487 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1751028935.813920964] [global_costmap.global_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.487 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [WARN] [1751028936.072974566] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[amcl-2] [INFO] [1751028936.142668329] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1751028936.142796990] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1751028936.142734 but the latest data is at time 3898.487000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-2] [INFO] [1751028936.142817734] [amcl]: Setting pose (1751028936.142818): -3.040 7.440 -1.570
+[planner_server-6] [INFO] [1751028936.599266173] [global_costmap.global_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.586 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028936.599342658] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3897.586 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [WARN] [1751028937.935530504] [local_costmap.local_costmap]: Sensor origin at (0.20, -0.00 0.09) is out of map bounds (-5.25, 4.25, 0.00) to (-0.27, 9.23, 0.78). The costmap cannot raytrace for it.
+[planner_server-6] [WARN] [1751028938.074444602] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[planner_server-6] [WARN] [1751028941.073721680] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[planner_server-6] [WARN] [1751028941.186403085] [planner_server]: No planners specified in action call. Server will use only plugin GridBased  in server. This warning will appear once.
+[smoother_server-5] [INFO] [1751028942.329937544] [smoother_server]: Received a path to smooth.
+[smoother_server-5] [WARN] [1751028942.330046322] [smoother_server]: No smoother was specified in action call. Server will use only plugin loaded simple_smoother . This warning will appear once.
+[controller_server-4] [INFO] [1751028942.382535662] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1751028942.382644671] [controller_server]: No controller was specified in action call. Server will use only plugin loaded FollowPath . This warning will appear once.
+[controller_server-4] [WARN] [1751028942.382689462] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[planner_server-6] [WARN] [1751028944.073751638] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[controller_server-4] [INFO] [1751028945.683467294] [controller_server]: Goal was canceled. Stopping the robot.
+[controller_server-4] [WARN] [1751028945.683589054] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[planner_server-6] [WARN] [1751028946.073800112] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[lifecycle_manager-3] [INFO] [1751028946.772514434] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-3] [INFO] [1751028946.772627951] [lifecycle_manager_localization]: [34m[1mShutting down managed nodes...[0m[0m
+[lifecycle_manager-3] [INFO] [1751028946.772662114] [lifecycle_manager_localization]: [34m[1mDeactivate, cleanup, and shutdown nodes[0m[0m
+[lifecycle_manager-3] [INFO] [1751028946.772690521] [lifecycle_manager_localization]: [34m[1mDeactivating amcl[0m[0m
+[amcl-2] [INFO] [1751028946.773378327] [amcl]: Deactivating
+[amcl-2] [INFO] [1751028946.773461374] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[lifecycle_manager-3] [INFO] [1751028946.876754125] [lifecycle_manager_localization]: [34m[1mDeactivating map_server[0m[0m
+[map_server-1] [INFO] [1751028946.877193116] [map_server]: Deactivating
+[map_server-1] [INFO] [1751028946.877266767] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[lifecycle_manager-3] [INFO] [1751028946.980380003] [lifecycle_manager_localization]: [34m[1mCleaning up amcl[0m[0m
+[amcl-2] [INFO] [1751028946.980879393] [amcl]: Cleaning up
+[lifecycle_manager-3] [INFO] [1751028946.999405018] [lifecycle_manager_localization]: [34m[1mCleaning up map_server[0m[0m
+[map_server-1] [INFO] [1751028947.000036420] [map_server]: Cleaning up
+[lifecycle_manager-3] [INFO] [1751028947.004448816] [lifecycle_manager_localization]: [34m[1mShutting down amcl[0m[0m
+[amcl-2] [INFO] [1751028947.004952805] [amcl]: Shutting down
+[lifecycle_manager-3] [INFO] [1751028947.005884638] [lifecycle_manager_localization]: [34m[1mShutting down map_server[0m[0m
+[map_server-1] [INFO] [1751028947.006456152] [map_server]: Shutting down
+[lifecycle_manager-3] [INFO] [1751028947.007127513] [lifecycle_manager_localization]: [34m[1mDestroying lifecycle service clients[0m[0m
+[lifecycle_manager-3] [INFO] [1751028947.012297252] [lifecycle_manager_localization]: [34m[1mManaged nodes have been shut down[0m[0m
+[lifecycle_manager-11] [INFO] [1751028947.018045617] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-11] [INFO] [1751028947.018135131] [lifecycle_manager_navigation]: [34m[1mShutting down managed nodes...[0m[0m
+[lifecycle_manager-11] [INFO] [1751028947.018151583] [lifecycle_manager_navigation]: [34m[1mDeactivate, cleanup, and shutdown nodes[0m[0m
+[lifecycle_manager-11] [INFO] [1751028947.018165371] [lifecycle_manager_navigation]: [34m[1mDeactivating velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1751028947.018789051] [velocity_smoother]: Deactivating
+[velocity_smoother-10] [INFO] [1751028947.018882705] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028947.121900582] [lifecycle_manager_navigation]: [34m[1mDeactivating waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1751028947.122648938] [waypoint_follower]: Deactivating
+[waypoint_follower-9] [INFO] [1751028947.122711992] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028947.225466774] [lifecycle_manager_navigation]: [34m[1mDeactivating bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1751028947.225755914] [bt_navigator]: Deactivating
+[bt_navigator-8] [INFO] [1751028947.225809596] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028947.330127317] [lifecycle_manager_navigation]: [34m[1mDeactivating behavior_server[0m[0m
+[behavior_server-7] [INFO] [1751028947.330499008] [behavior_server]: Deactivating
+[behavior_server-7] [INFO] [1751028947.330568049] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028947.434814020] [lifecycle_manager_navigation]: [34m[1mDeactivating planner_server[0m[0m
+[planner_server-6] [INFO] [1751028947.435300995] [planner_server]: Deactivating
+[planner_server-6] [INFO] [1751028947.435383726] [global_costmap.global_costmap]: Deactivating
+[planner_server-6] [INFO] [1751028948.072988904] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1751028948.073059923] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028948.176158211] [lifecycle_manager_navigation]: [34m[1mDeactivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1751028948.176560589] [smoother_server]: Deactivating
+[smoother_server-5] [INFO] [1751028948.176616825] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[controller_server-4] [INFO] [1751028948.195401246] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3907.387 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[lifecycle_manager-11] [INFO] [1751028948.279680472] [lifecycle_manager_navigation]: [34m[1mDeactivating controller_server[0m[0m
+[controller_server-4] [INFO] [1751028948.280143814] [controller_server]: Deactivating
+[controller_server-4] [INFO] [1751028948.280248235] [local_costmap.local_costmap]: Deactivating
+[controller_server-4] [INFO] [1751028948.305445387] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3907.487 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1751028948.335607896] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1751028948.413153850] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3907.587 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[lifecycle_manager-11] [INFO] [1751028948.439072249] [lifecycle_manager_navigation]: [34m[1mCleaning up velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1751028948.439434157] [velocity_smoother]: Cleaning up
+[lifecycle_manager-11] [INFO] [1751028948.442079386] [lifecycle_manager_navigation]: [34m[1mCleaning up waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1751028948.442367823] [waypoint_follower]: Cleaning up
+[lifecycle_manager-11] [INFO] [1751028948.451990362] [lifecycle_manager_navigation]: [34m[1mCleaning up bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1751028948.452335162] [bt_navigator]: Cleaning up
+[controller_server-4] [INFO] [1751028948.523540798] [local_costmap.local_costmap]: Message Filter dropping message: frame 'base_laser_link' at time 3907.687 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[bt_navigator-8] [INFO] [1751028948.595249350] [bt_navigator]: Completed Cleaning up
+[lifecycle_manager-11] [INFO] [1751028948.596031824] [lifecycle_manager_navigation]: [34m[1mCleaning up behavior_server[0m[0m
+[behavior_server-7] [INFO] [1751028948.596400036] [behavior_server]: Cleaning up
+[lifecycle_manager-11] [INFO] [1751028948.633848258] [lifecycle_manager_navigation]: [34m[1mCleaning up planner_server[0m[0m
+[planner_server-6] [INFO] [1751028948.634219468] [planner_server]: Cleaning up
+[planner_server-6] [INFO] [1751028948.648767342] [global_costmap.global_costmap]: Cleaning up
+[planner_server-6] [INFO] [1751028948.655025156] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1751028948.655135110] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[lifecycle_manager-11] [INFO] [1751028948.672720136] [lifecycle_manager_navigation]: [34m[1mCleaning up smoother_server[0m[0m
+[smoother_server-5] [INFO] [1751028948.673061952] [smoother_server]: Cleaning up
+[lifecycle_manager-11] [INFO] [1751028948.686804460] [lifecycle_manager_navigation]: [34m[1mCleaning up controller_server[0m[0m
+[controller_server-4] [INFO] [1751028948.687296761] [controller_server]: Cleaning up
+[controller_server-4] [INFO] [1751028948.696306774] [local_costmap.local_costmap]: Cleaning up
+[lifecycle_manager-11] [INFO] [1751028948.730218788] [lifecycle_manager_navigation]: [34m[1mShutting down velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1751028948.730632602] [velocity_smoother]: Shutting down
+[lifecycle_manager-11] [INFO] [1751028948.731437734] [lifecycle_manager_navigation]: [34m[1mShutting down waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1751028948.731893824] [waypoint_follower]: Shutting down
+[lifecycle_manager-11] [INFO] [1751028948.732345868] [lifecycle_manager_navigation]: [34m[1mShutting down bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1751028948.732714089] [bt_navigator]: Shutting down
+[lifecycle_manager-11] [INFO] [1751028948.733327423] [lifecycle_manager_navigation]: [34m[1mShutting down behavior_server[0m[0m
+[behavior_server-7] [INFO] [1751028948.733795935] [behavior_server]: Shutting down
+[lifecycle_manager-11] [INFO] [1751028948.734488227] [lifecycle_manager_navigation]: [34m[1mShutting down planner_server[0m[0m
+[planner_server-6] [INFO] [1751028948.734920641] [planner_server]: Shutting down
+[lifecycle_manager-11] [INFO] [1751028948.735558975] [lifecycle_manager_navigation]: [34m[1mShutting down smoother_server[0m[0m
+[smoother_server-5] [INFO] [1751028948.735887727] [smoother_server]: Shutting down
+[lifecycle_manager-11] [INFO] [1751028948.736337407] [lifecycle_manager_navigation]: [34m[1mShutting down controller_server[0m[0m
+[controller_server-4] [INFO] [1751028948.736666496] [controller_server]: Shutting down
+[lifecycle_manager-11] [INFO] [1751028948.737314946] [lifecycle_manager_navigation]: [34m[1mDestroying lifecycle service clients[0m[0m
+[lifecycle_manager-11] [INFO] [1751028948.757021886] [lifecycle_manager_navigation]: [34m[1mManaged nodes have been shut down[0m[0m
+[map_server-1] [INFO] [1751028951.261436133] [rclcpp]: signal_handler(signum=2)
+[map_server-1] [INFO] [1751028951.261608148] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1751028951.261700534] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1751028951.261461812] [rclcpp]: signal_handler(signum=2)
+[amcl-2] [INFO] [1751028951.261668775] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[lifecycle_manager-3] [INFO] [1751028951.261513560] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-3] [INFO] [1751028951.261678933] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[smoother_server-5] [INFO] [1751028951.261567510] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1751028951.261573416] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1751028951.261697600] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[amcl-2] [INFO] [1751028951.261770397] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[controller_server-4] [INFO] [1751028951.261797837] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[planner_server-6] [INFO] [1751028951.261692873] [rclcpp]: signal_handler(signum=2)
+[planner_server-6] [INFO] [1751028951.262414278] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-6] [INFO] [1751028951.262514179] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1751028951.261786551] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1751028951.262260639] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-9] [INFO] [1751028951.262286744] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1751028951.262554223] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1751028951.262670100] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-5] [INFO] [1751028951.262758318] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[bt_navigator-8] [INFO] [1751028951.262881129] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-8] [INFO] [1751028951.262973363] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1751028951.263014484] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-10] [INFO] [1751028951.263101663] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1751028951.263216993] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-11] [INFO] [1751028951.263382809] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[waypoint_follower-9] [INFO] [1751028951.263242618] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-9] [INFO] [1751028951.263344615] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[behavior_server-7] [INFO] [1751028951.263253228] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-7] [INFO] [1751028951.263347878] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[amcl-2] [INFO] [1751028951.264119396] [amcl]: Destroying
+[velocity_smoother-10] [INFO] [1751028951.264538787] [velocity_smoother]: Destroying
+[map_server-1] [INFO] [1751028951.266566616] [map_server]: Destroying
+[controller_server-4] [INFO] [1751028951.266633904] [local_costmap.local_costmap]: Destroying
+[behavior_server-7] [INFO] [1751028951.266850546] [behavior_server]: Destroying
+[lifecycle_manager-3] [INFO] [1751028951.268019504] [lifecycle_manager_localization]: Destroying lifecycle_manager_localization
+[bt_navigator-8] [INFO] [1751028951.268391170] [bt_navigator]: Destroying
+[waypoint_follower-9] [INFO] [1751028951.269087034] [waypoint_follower]: Destroying
+[lifecycle_manager-11] [INFO] [1751028951.270595229] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[smoother_server-5] [INFO] [1751028951.273758664] [smoother_server]: Destroying
+[planner_server-6] [INFO] [1751028951.276716653] [global_costmap.global_costmap]: Destroying
+[controller_server-4] [INFO] [1751028951.335611288] [controller_server]: Destroying
+[planner_server-6] [INFO] [1751028951.343104382] [planner_server]: Destroying
+[INFO] [velocity_smoother-10]: process has finished cleanly [pid 191453]
+[INFO] [amcl-2]: process has finished cleanly [pid 191432]
+[INFO] [bt_navigator-8]: process has finished cleanly [pid 191449]
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 191434]
+[INFO] [lifecycle_manager-11]: process has finished cleanly [pid 191455]
+[INFO] [waypoint_follower-9]: process has finished cleanly [pid 191451]
+[INFO] [map_server-1]: process has finished cleanly [pid 191430]
+[INFO] [behavior_server-7]: process has finished cleanly [pid 191442]
+[INFO] [smoother_server-5]: process has finished cleanly [pid 191438]
+[INFO] [planner_server-6]: process has finished cleanly [pid 191440]
+[INFO] [controller_server-4]: process has finished cleanly [pid 191436]

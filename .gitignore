@@ -1,0 +1,56 @@
+# ROS2 Build Files
+build/
+install/
+log/
+*.egg-info/
+dist/
+*.egg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.vscode-unsaved/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ROS specific
+devel/
+build_debug/
+*.rviz
+*.bag
+*.db3
+
+# Generated files
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.bak
+*.orig

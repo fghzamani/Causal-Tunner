@@ -2,29 +2,55 @@
 
 This repository provides tools for **tuning robot navigation parameter ** using causal inference and randomized controlled trials (RCTs) in simulation. It is organized into two main components:
 
-- **`running_rct/`**: A ROS2 package for running navigation trials in Gazebo and collecting experiment data.
-- **`causal_inference/`**: A folder containing Python scripts, bash scripts, and figures for causal discovery, inference, and parameter tuning.
+- **`running_rct/`**: A
 
 ---
 
 ## Directory Structure
 
 ```
-causal_navigation_ws/
+Causal-Tunner/
 │
-├── running_rct/           # ROS2 package for running trials and collecting data
+├── robot_simulation/      # ROS2 package for running Gazebo simulations
 │   ├── launch/
-│   ├── scripts/
-│   ├── config/
-│   ├── runnig_trials.sh   # Main script to launch trials and save results
+│   ├── maps/
+│   ├── models/
+│   ├── params/
+│   ├── worlds/
 │   └── ...                # ROS2 nodes and package files
 │
-└── causal_inference/      # Causal discovery and parameter tuning
-    ├── causal_discovery.py    # Main script for causal discovery
-    ├── inferencing.py         # Scripts for parameter inference/tuning
-    ├── figures/               # Plots and result figures
-    ├── *.sh                   # Bash scripts for automation
-    └── ...                    # Additional Python scripts
+├── causal_discovery/      # Causal discovery and parameter tuning
+│   ├── causal_discovery/  # Python package
+│   │   ├── __init__.py
+│   │   ├── evaluation_paths.py
+│   │   ├── footprint_collision_checker.py
+│   │   ├── get_footprint.py
+│   │   └── path_plotter_navigator.py
+│   ├── generated_paths/   # Generated    path data (JSON files)
+│   ├── generated_plots/   # Generated visualization plots
+│   ├── params_generator/  # Parameter generation scripts
+│   ├── data_collector.sh  # Main script to run simulations and collect data
+│   ├── setup.py
+│   ├── setup.cfg
+│   └── package.xml
+│
+├── dependencies.rosinstall  # ROS2 dependencies file
+├── LICENSE
+└── README.md
+```
+
+---
+
+## Installation
+
+To set up the workspace and install dependencies:
+
+```bash
+cd ~/my_workspace
+vcs import src < src/Causal-Tunner/dependencies.rosinstall
+rosdep install --from-paths src --ignore-src -r -y
+colcon build
+source install/setup.bash
 ```
 
 ---
@@ -33,8 +59,25 @@ causal_navigation_ws/
 
 ### 1. **Running Navigation Trials and Collecting Data**
 
-- Use the `running_rct` ROS2 package to run navigation experiments in Gazebo and collect results in a CSV file.
-- **Configure paths** in `runnig_trials.sh`:
+Before running the data collection script, set the `ROS_CAUSAL_WS` environment variable to point to your workspace:
+
+```bash
+export ROS_CAUSAL_WS="$HOME/Desktop/ros2_ws"
+```
+
+Then run the data collector script to run simulations with different parameter iterations and collect data:
+
+```bash
+bash causal_discovery/data_collector.sh
+```
+
+This script will:
+- Run multiple simulation iterations in Gazebo
+- Generate paths and collect navigation data
+- Save results to JSON files in the `generated_paths/` folder
+
+Alternatively, you can use the `running_rct` ROS2 package to run navigation experiments and collect results in a CSV file:
+- **Configure paths** in `running_rct/runnig_trials.sh`:
   - Set the path to your `nav2_param` file.
   - Set the path to your output CSV file.
 
