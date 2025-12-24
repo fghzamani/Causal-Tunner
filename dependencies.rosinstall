@@ -2,7 +2,7 @@ repositories:
   tiago_simulation:
     type: git
     url: https://github.com/pal-robotics/tiago_simulation.git
-    version: cc55a66
+    version: 55a8980a3b69f0
   pal_navigation_cfg_public:
     type: git
     url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
