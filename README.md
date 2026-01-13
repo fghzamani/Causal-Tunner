@@ -9,6 +9,7 @@ This repository provides tools for **tuning robot navigation parameters** using 
 ---
 
 ## Directory Structure
+
 ```
 Causal-Tunner/
 │
@@ -47,8 +48,12 @@ Causal-Tunner/
 ## Installation
 
 To set up the workspace and install dependencies:
+
 ```bash
-cd ~/my_workspace
+mkdir -p ~/causal_tunner_ws/src
+cd ~/causal_tunner_ws/src
+git clone https://github.com/fghzamani/Causal-Tunner.git
+cd ~/causal_tunner_ws
 vcs import src < src/Causal-Tunner/dependencies.rosinstall
 rosdep install --from-paths src --ignore-src -r -y
 colcon build
@@ -57,18 +62,35 @@ source install/setup.bash
 
 ---
 
+## Environment Setup
+
+Add the following lines to your `~/.bashrc` file:
+
+```bash
+# Set your workspace path
+export ROS_CAUSAL_WS="$HOME/causal_tunner_ws"
+
+# Gazebo paths for simulation models
+export GAZEBO_MODEL_PATH=$ROS_CAUSAL_WS/src/Causal-Tunner/robot_simulation/models:$GAZEBO_MODEL_PATH
+export GAZEBO_RESOURCE_PATH=$ROS_CAUSAL_WS/src/Causal-Tunner/robot_simulation:$GAZEBO_RESOURCE_PATH
+```
+
+Then reload your bashrc:
+
+```bash
+source ~/.bashrc
+```
+
+---
+
 ## Usage
 
 ### 1. Running Navigation Trials and Collecting Data
 
-Before running the data collection script, set the `ROS_CAUSAL_WS` environment variable to point to your workspace:
-```bash
-export ROS_CAUSAL_WS="$HOME/Desktop/ros2_ws"
-```
+Run the data collector script to run simulations with different parameter iterations and collect data:
 
-Then run the data collector script to run simulations with different parameter iterations and collect data:
 ```bash
-bash causal_discovery/data_collector.sh
+bash $ROS_CAUSAL_WS/src/Causal-Tunner/causal_discovery/data_collector.sh
 ```
 
 This script will:
@@ -81,8 +103,9 @@ This script will:
 ### 2. Causal Discovery
 
 To analyze the collected data and discover causal relationships:
+
 ```bash
-cd causal_discovery
+cd $ROS_CAUSAL_WS/src/Causal-Tunner/causal_discovery
 python3 causal_discovery.py
 ```
 
@@ -93,11 +116,14 @@ This script will read your CSV data, build a causal graph, and output results/fi
 ### 3. Parameter Inference and Tuning
 
 For inferring optimal navigation parameters using causal models, run the relevant Python scripts in `causal_discovery/`:
+
 ```bash
+cd $ROS_CAUSAL_WS/src/Causal-Tunner/causal_discovery
 python3 inferencing.py
 ```
 
 or
+
 ```bash
 python3 tune_parameters.py
 ```
