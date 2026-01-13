@@ -1,38 +1,41 @@
 # Causal-Tunner
 
-This repository provides tools for **tuning robot navigation parameter ** using causal inference and randomized controlled trials (RCTs) in simulation. It is organized into two main components:
+This repository provides tools for **tuning robot navigation parameters** using causal inference in simulation. It is organized into the following main components:
 
-- **`running_rct/`**: A
+- **`robot_simulation/`**: ROS2 package for running Gazebo simulations with configurable navigation parameters
+- **`causal_discovery/`**: Python package for causal discovery, parameter tuning, and data collection
+- **`plasys_house_world/`**: Gazebo world models for simulation environments
 
 ---
 
 ## Directory Structure
-
 ```
 Causal-Tunner/
 │
-├── robot_simulation/      # ROS2 package for running Gazebo simulations
+├── robot_simulation/        # ROS2 package for running Gazebo simulations
 │   ├── launch/
 │   ├── maps/
 │   ├── models/
 │   ├── params/
 │   ├── worlds/
-│   └── ...                # ROS2 nodes and package files
+│   └── ...                  # ROS2 nodes and package files
 │
-├── causal_discovery/      # Causal discovery and parameter tuning
-│   ├── causal_discovery/  # Python package
+├── causal_discovery/        # Causal discovery and parameter tuning
+│   ├── causal_discovery/    # Python package
 │   │   ├── __init__.py
 │   │   ├── evaluation_paths.py
 │   │   ├── footprint_collision_checker.py
 │   │   ├── get_footprint.py
 │   │   └── path_plotter_navigator.py
-│   ├── generated_paths/   # Generated    path data (JSON files)
-│   ├── generated_plots/   # Generated visualization plots
-│   ├── params_generator/  # Parameter generation scripts
-│   ├── data_collector.sh  # Main script to run simulations and collect data
+│   ├── generated_paths/     # Generated path data (JSON files)
+│   ├── generated_plots/     # Generated visualization plots
+│   ├── params_generator/    # Parameter generation scripts
+│   ├── data_collector.sh    # Main script to run simulations and collect data
 │   ├── setup.py
 │   ├── setup.cfg
 │   └── package.xml
+│
+├── plasys_house_world/      # Gazebo world files and models
 │
 ├── dependencies.rosinstall  # ROS2 dependencies file
 ├── LICENSE
@@ -44,7 +47,6 @@ Causal-Tunner/
 ## Installation
 
 To set up the workspace and install dependencies:
-
 ```bash
 cd ~/my_workspace
 vcs import src < src/Causal-Tunner/dependencies.rosinstall
@@ -57,16 +59,14 @@ source install/setup.bash
 
 ## Usage
 
-### 1. **Running Navigation Trials and Collecting Data**
+### 1. Running Navigation Trials and Collecting Data
 
 Before running the data collection script, set the `ROS_CAUSAL_WS` environment variable to point to your workspace:
-
 ```bash
 export ROS_CAUSAL_WS="$HOME/Desktop/ros2_ws"
 ```
 
 Then run the data collector script to run simulations with different parameter iterations and collect data:
-
 ```bash
 bash causal_discovery/data_collector.sh
 ```
@@ -76,26 +76,13 @@ This script will:
 - Generate paths and collect navigation data
 - Save results to JSON files in the `generated_paths/` folder
 
-Alternatively, you can use the `running_rct` ROS2 package to run navigation experiments and collect results in a CSV file:
-- **Configure paths** in `running_rct/runnig_trials.sh`:
-  - Set the path to your `nav2_param` file.
-  - Set the path to your output CSV file.
-
-**Example:**
-```bash
-cd running_rct
-bash runnig_trials.sh
-```
-This will launch the trials, run the robot in Gazebo, and save experiment results to the specified CSV.
-
 ---
 
-### 2. **Causal Discovery**
+### 2. Causal Discovery
 
-- To analyze the collected data and discover causal relationships, run:
-
+To analyze the collected data and discover causal relationships:
 ```bash
-cd causal_inference
+cd causal_discovery
 python3 causal_discovery.py
 ```
 
@@ -103,46 +90,47 @@ This script will read your CSV data, build a causal graph, and output results/fi
 
 ---
 
-### 3. **Parameter Inference and Tuning**
+### 3. Parameter Inference and Tuning
 
-- For inferring optimal navigation parameters using causal models, run the relevant Python scripts in `causal_inference/`:
-
+For inferring optimal navigation parameters using causal models, run the relevant Python scripts in `causal_discovery/`:
 ```bash
 python3 inferencing.py
 ```
+
 or
 ```bash
 python3 tune_parameters.py
 ```
 
-- These scripts will use the discovered causal relationships to suggest parameter configurations that optimize navigation outcomes.
+These scripts will use the discovered causal relationships to suggest parameter configurations that optimize navigation outcomes.
 
 ---
 
-## Notes
+## Dependencies
 
-- **Dependencies:**  
-  - ROS2
-  - Python 3.x, pandas, numpy, networkx, pgmpy, scikit-learn, matplotlib (for `causal_inference`)
+- ROS2 (Humble/Iron)
+- Gazebo
+- Python 3.x
+- pandas, numpy, networkx, pgmpy, scikit-learn, matplotlib
 
 ---
 
 ## Customization
 
-- Adjust the number of trials, parameter ranges, and experiment settings in the config files and scripts as needed.
-- You can automate batch experiments or parameter sweeps using the provided bash scripts.
+- Adjust the number of trials, parameter ranges, and experiment settings in the config files and scripts as needed
+- Automate batch experiments or parameter sweeps using the provided bash scripts
 
 ---
- ## Demonstration with real robot
- 
 
+## Demonstration with Real Robot
 
 https://github.com/user-attachments/assets/65ff1920-044f-4813-a3f8-31d9cab7c5ea
 
+---
 
 ## License
 
-MIT License (see `LICENSE` file).
+Apache-2.0 License (see `LICENSE` file).
 
 ---
 
