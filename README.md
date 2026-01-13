@@ -118,14 +118,8 @@ This script will read your CSV data, build a causal graph, and output results/fi
 For inferring optimal navigation parameters using causal models, run the relevant Python scripts in `causal_discovery/`:
 
 ```bash
-cd $ROS_CAUSAL_WS/src/Causal-Tunner/causal_discovery
-python3 inferencing.py
-```
-
-or
-
-```bash
-python3 tune_parameters.py
+cd $ROS_CAUSAL_WS/src/Causal-Tunner/causal_discovery/scripts
+python3 causal_inference.py
 ```
 
 These scripts will use the discovered causal relationships to suggest parameter configurations that optimize navigation outcomes.
@@ -148,7 +142,7 @@ These scripts will use the discovered causal relationships to suggest parameter 
 
 ---
 
-## Demonstration with Real Robot
+## Demonstration with Real Robot (Mirte Master)
 
 https://github.com/user-attachments/assets/65ff1920-044f-4813-a3f8-31d9cab7c5ea
 
